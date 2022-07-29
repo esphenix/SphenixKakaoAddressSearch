@@ -34,7 +34,10 @@
       }
 
       function postMessageToiOS(postData) {
-        window.webkit.messageHandlers.callBackHandler.postMessage(postData);
+        var data = {
+          type: "address",
+          data: postData
+        window.webkit.messageHandlers.setData.postMessage(data);
       }
 
       var element_layer = document.getElementById("layer");
