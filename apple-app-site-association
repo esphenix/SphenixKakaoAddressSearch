@@ -5,7 +5,7 @@
              "appIDs": [ "TNAM3J487X.com.probit.app.ios.release.korealite" ],
              "components": [
                {
-                  "/": "*",
+                  "/": ".well-known/*",
                   "comment": "Matches any URL with a path that starts with /"
                }
              ]
