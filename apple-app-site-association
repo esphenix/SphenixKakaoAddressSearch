@@ -1,11 +1,21 @@
 {
     "applinks": {
-        "apps": [],
-        "details": [
-            {
-                "appID": "TNAM3J487X.com.probit.app.ios.release.korealite",
-                "paths": [ "*", "/" ]
-            }
-        ]
-    }
+      "details": [
+           {
+             "appIDs": [ "TNAM3J487X.com.probit.app.ios.release.korealite" ],
+             "components": [
+               {
+                  "/": "*",
+                  "comment": "Matches any URL with a path that starts with /buy/."
+               }
+             ]
+           }
+       ]
+   },
+   "webcredentials": {
+      "apps": [ "TNAM3J487X.com.probit.app.ios.release.korealite" ]
+   },
+   "appclips": {
+        "apps": []
+   }
 }
